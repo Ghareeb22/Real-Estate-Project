@@ -23,7 +23,7 @@ function App() {
           <Hero />
         </div>
         <Routes>
-          <Route path="/home" exact element={<Home />}></Route>
+          <Route path="/" exact element={<Home />}></Route>
           <Route path="" exact element={<Companies />}></Route>
           <Route path="/residencies" exact element={<Residencies />}></Route>
           <Route path="/value" exact element={<Value />}></Route>
